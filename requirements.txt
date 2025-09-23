@@ -1,56 +1,41 @@
-# Telegram
-pyrofork==2.3.52
-tgcrypto==1.2.5
-
-# HTTP + Parsing
-requests==2.32.3
-beautifulsoup4==4.12.3
-shortzy==0.0.2
-pytz==2025.1
-aiohttp==3.10.10
-
-# YouTube & Media
-yt-dlp==2025.2.19
-youtube-dl==2021.12.17  # deprecated, keep only if legacy needed
-ytthumb==1.1
-youtube-search-python==1.6.6
-youtube_search==2.1.2
-
-# Utils
-jinja2==3.1.4
-apscheduler==3.10.4
-pyshorteners==1.0.1
-colorama==0.4.6
-numpy==2.1.2
-wheel==0.44.0
-ujson==5.10.0
-wget==3.2
-aiofiles==24.1.0
-hachoir==3.3.0
-python-decouple==3.8
-python-dotenv==1.0.1
-humanize==4.11.0
-psutil==6.0.0
-dnspython==2.7.0
-Pillow==11.0.0
-opencv-python-headless==4.10.0.84
-speedtest-cli==2.1.3
-
-# DB & ORMs
-pymongo[srv]==4.10.1
-motor==3.6.0
-marshmallow==3.23.1
-umongo==3.2.0
-
-# AI & Voice
-openai==1.51.0
-gTTS==2.5.4
-googletrans==4.0.2
-
-# FFmpeg
-ffmpeg==1.4
-ffmpeg-python==0.2.0
-
-# Extra
+pyrofork==2.3.45
+tgcrypto 
+requests 
+bs4 
+shortzy 
+pytz 
+aiohttp
+yt-dlp
+youtube-dl
+ytthumb
+jinja2
+apscheduler
+pyshorteners
+colorama
+NumPy 
+wheel 
+ujson 
+wget
+aiofiles
+hachoir
+python-decouple 
+ffmpeg
+youtube_search
+pymongo[srv]==3.12.3 
+motor==2.5.1 
+marshmallow==3.14.1 
+umongo==3.0.1 
 PyLeaves==1.0.2
+youtube-search-python==1.4.6
+opencv-python-headless==4.7.0.68 
+googletrans==3.1.0a0 
+python-dotenv==0.21.1 
+gTTS==2.3.1 
+speedtest==0.0.1 
+humanize==4.6.0 
+Pillow==9.4.0 
+psutil==5.9.4 
+dnspython==2.3.0
+ffmpeg-python>=0.2.0
+openai==0.25.0
 git+https://github.com/Joelkb/cinemagoer
