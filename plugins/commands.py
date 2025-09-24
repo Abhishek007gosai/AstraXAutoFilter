@@ -50,8 +50,8 @@ async def start(client, message):
         if PREMIUM_AND_REFERAL_MODE == True:
            buttons = [
                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-               [InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
-               [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info")],
+               [InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')],
+               [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
                [InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')],
                [InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)]
            ]
@@ -1371,6 +1371,7 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
 
