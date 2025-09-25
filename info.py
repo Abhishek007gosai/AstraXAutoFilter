@@ -75,8 +75,8 @@ S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When F
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
 
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
-REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '20')) # number of referal count
-REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '3month') # time in week, day, month.
+REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '10')) # number of referal count
+REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month') # time in week, day, month.
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://files.catbox.moe/2ia59o.jpg') # payment code picture url.
 PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b><blockquote>sʜᴀʀᴇ ʙᴏᴛ ʀᴇғᴇʀᴇɴᴄᴇ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs ᴀɴᴅ ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</blockquote>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs -\n- 5 sʜᴀʀᴇ - 1 ᴡᴇᴇᴋ\n- 10 sʜᴀʀᴇ - 1 ᴍᴏɴᴛʜs\n- 20 sʜᴀʀᴇ - 3 ᴍᴏɴᴛʜs\n- 30 sʜᴀʀᴇ - 6 ᴍᴏɴᴛʜs\n- 40 sʜᴀʀᴇ - 1 year\n<blockquote>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs\n\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n○ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs\n○ ᴜɴʟɪᴍɪᴛᴇᴅ sᴇʀɪᴇs & ᴀʟʟ \n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ</blockquote>\n<blockquote>‼️ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</blockquote>\n✨ɪғ ʏᴏᴜ ᴡᴀɴᴛ ʏᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ᴡᴇ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴏɴᴇ ᴍᴏɴᴛʜ ᴘʀᴇᴍɪᴜᴍ @EternalsHelplineBot\n\nᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴs /myplan</b>')
 
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
