@@ -91,7 +91,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/EternalsHelplineBot')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Flix_Dex')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'EternalsHelplineBot') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/EternalsHelplineBot')
+OWNER_LNK = environ.get('OWNER_LNK', 'EternalsHelplineBot')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -112,13 +112,13 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = 'False'
+VERIFY = 'True'
 VERIFY_SHORTLINK_URL = 'shortxlinks.com/'
 VERIFY_SHORTLINK_API = '64d631b036df348caab852591a09288cbf5b6809'
 VERIFY_TUTORIAL = 'https://t.me/+wekKcN1tjbAxY2U1'
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
-VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', True))
+VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'shortxlinks.com/')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '64d631b036df348caab852591a09288cbf5b6809')
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
