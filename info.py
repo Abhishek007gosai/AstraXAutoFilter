@@ -107,7 +107,7 @@ SPELL_CHECK_REPLY = bool(environ.get("SPELL_CHECK_REPLY", True))
 MELCOW_NEW_USERS = bool(environ.get('MELCOW_NEW_USERS', True))
 PROTECT_CONTENT = bool(environ.get('PROTECT_CONTENT', False))
 PUBLIC_FILE_STORE = bool(environ.get('PUBLIC_FILE_STORE', True))
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", Trueqq))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
