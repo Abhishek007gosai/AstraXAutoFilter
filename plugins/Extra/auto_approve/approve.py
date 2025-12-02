@@ -418,7 +418,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 except:
                     return
             await msg.edit_caption(caption=f_caption)
-            btn = [[InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ", callback_data=f'del#{file_id}'), InlineKeyboardButton("ᴄᴀɴᴄᴇʟ", callback_data="cancel")]]
+            btn = [[InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ", callback_data=f'del#{file_id}')]]
             k = await msg.reply(text=f"<blockquote><b>ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ\nᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴏʀ ᴀɴʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ</b></blockquote>")
             await asyncio.sleep(600)
             await msg.delete()
@@ -467,7 +467,7 @@ async def auto_approve(client, message: ChatJoinRequest):
         protect_content=True if pre == 'filep' else False,
         reply_markup=reply_markup
     )
-    btn = [[InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ", callback_data=f'del#{file_id}'), InlineKeyboardButton("ᴄᴀɴᴄᴇʟ", callback_data="cancel")]]
+    btn = [[InlineKeyboardButton("ɢᴇᴛ ғɪʟᴇ ᴀɢᴀɪɴ", callback_data=f'del#{file_id}')]]
     k = await msg.reply(
     text=f"<blockquote><b>ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ\nᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴏʀ ᴀɴʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ</b></blockquote>")
     await asyncio.sleep(600)
