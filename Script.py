@@ -193,9 +193,10 @@ Nᴀᴍᴇ - {}"""
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
     I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
-<blockquote>ᴇxᴀᴍᴘʟᴇ : ɴᴀᴍᴇ ᴏʀ ᴇᴘ ɴᴜᴍʙᴇʀ
+<blockquote>ᴇxᴀᴍᴘʟᴇ : ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɴᴀᴍᴇ ᴏʀ ᴇᴘ ɴᴜᴍʙᴇʀ
 
-ꜰᴏʀᴍᴀᴛ : [S1 E01] Overflow | S1 E01 Overflow | E01 Overflow
+ᴜsᴇ ᴛʜɪs ғᴏʀᴍᴀᴛ
+ꜰᴏʀᴍᴀᴛ : Overflow / S1 E01 Overflow / S1E01 Overflow / E01 Overflow
 
 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</blockquote>\n<blockquote>ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃</blockquote>
 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ @EternalsHelplineBot</b>"""
@@ -742,6 +743,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
