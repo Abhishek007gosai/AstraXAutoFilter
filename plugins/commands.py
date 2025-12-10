@@ -48,19 +48,18 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
-           buttons = [
+            buttons = [
                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
                [InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')],
-               [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
-               [InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', callback_data='subscription')],
-               [InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)]
-           ]
+               [InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)],
+               [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ', url='https://t.me/NexusTutorial/15')]
+            ]
         else:
-           buttons = [
+            buttons = [
                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-               [InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
-               [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=GRP_LNK)],
-               [InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)]
+               [InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')],
+               [InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)],
+               [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ', url='https://t.me/NexusTutorial/15')]
            ]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -123,19 +122,18 @@ async def start(client, message):
             
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         if PREMIUM_AND_REFERAL_MODE == True:
-           buttons = [
+            buttons = [
                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
                [InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')],
-               [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
-               [InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', callback_data='subscription')],
-               [InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)]
+               [InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)],
+               [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ', url='https://t.me/NexusTutorial/15')]
            ]
         else:
-           buttons = [
+            buttons = [
                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-               [InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
-               [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=GRP_LNK)],
-               [InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)]
+               [InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')],
+               [InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)],
+               [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ', url='https://t.me/NexusTutorial/15')]
            ]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -167,20 +165,19 @@ async def start(client, message):
                     return 
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
-               buttons = [
+                buttons = [
                    [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-                   [InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help')],
-                   [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
-                   [InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ', callback_data='subscription')],
-                   [InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)]
-               ]
-            else:
+                   [InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')],
+                   [InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)],
+                   [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ', url='https://t.me/NexusTutorial/15')]
+              ]
+           else:
                buttons = [
-                   [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-                   [InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
-                   [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=GRP_LNK)],
-                   [InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)]
-               ]
+                  [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
+                  [InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')],
+                  [InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'), InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)],
+                  [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ʙᴏᴛ', url='https://t.me/NexusTutorial/15')]
+              ]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
@@ -1371,6 +1368,7 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
 
