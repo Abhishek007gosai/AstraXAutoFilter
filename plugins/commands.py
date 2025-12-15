@@ -48,8 +48,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
-            buttons = [
-                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            buttons = [[
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
@@ -60,8 +60,8 @@ async def start(client, message):
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
         else:
-            buttons = [
-                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            buttons = [[
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
@@ -132,8 +132,8 @@ async def start(client, message):
             
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         if PREMIUM_AND_REFERAL_MODE == True:
-            buttons = [
-                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            buttons = [[
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
@@ -144,8 +144,8 @@ async def start(client, message):
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
         else:
-            buttons = [
-                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            buttons = [[
+                InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
@@ -185,29 +185,29 @@ async def start(client, message):
                     return 
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
-            buttons = [
-                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-                InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
-            ],[
-                InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
-            ],[
-                InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')
-            ],[
-                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
-            ]]
-        else:
-            buttons = [
-                [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-                InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
-            ],[
-                InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
-            ],[
-                InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')
-            ],[
-                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
-            ]]
+                buttons = [[
+                    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
+                ],[
+                    InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                ],[
+                    InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')
+                ],[
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                ]]
+            else:
+                buttons = [[
+                    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                ],[
+                    InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
+                ],[
+                    InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                ],[
+                    InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')
+                ],[
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+                ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
@@ -1398,6 +1398,7 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
 
