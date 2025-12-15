@@ -1809,8 +1809,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')
-            ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
         else:
@@ -1820,8 +1818,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
                 InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
-            ],[
-                InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')
             ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
@@ -3259,6 +3255,7 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
 
 
 
