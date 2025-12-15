@@ -53,7 +53,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
-                InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
             ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
@@ -63,7 +63,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
-                InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
             ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
@@ -133,7 +133,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
-                InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
             ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
@@ -143,7 +143,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
-                InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
             ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
@@ -182,7 +182,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
                 ],[
-                    InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
                 ],[
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ]]
@@ -192,7 +192,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
                 ],[
-                    InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
                 ],[
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ]]
@@ -1386,6 +1386,7 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
 
