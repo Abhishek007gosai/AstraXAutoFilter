@@ -3,7 +3,7 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} Wᴇʟᴄᴏᴍᴇ Tᴏ Cᴏᴍᴍᴜɴɪᴛʏ Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ ʏᴏᴜ ᴄᴀɴ ᴅᴏ sᴏ ʙʏ sᴜʙsᴄʀɪʙɪɴɢ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ</blockquote>\nʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ[<a href=https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴜᴛᴏʀɪᴀʟ</a>]</b>"""
+    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} Wᴇʟᴄᴏᴍᴇ Tᴏ Cᴏᴍᴍᴜɴɪᴛʏ Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ ʏᴏᴜ ᴄᴀɴ ᴅᴏ sᴏ ʙʏ sᴜʙsᴄʀɪʙɪɴɢ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ</blockquote>\nʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ[<a href=https://t.me/GintokiXRobot?start=BQADAQADMwcAAp_h-UWSjG3wNmldnhYE>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴜᴛᴏʀɪᴀʟ</a>]</b>"""
     
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -743,6 +743,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
