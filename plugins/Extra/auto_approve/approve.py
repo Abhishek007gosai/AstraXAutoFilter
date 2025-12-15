@@ -66,9 +66,9 @@ async def auto_approve(client, message: ChatJoinRequest):
                buttons = [
                    [InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
                    [InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')],
-                   [InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"), InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')],
-                   [InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')],
-                   [InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)]
+                   [InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)],
+                   [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')],
+                   [InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')]
                ]
             else:
                 buttons = [[
@@ -103,7 +103,7 @@ async def auto_approve(client, message: ChatJoinRequest):
         pre = ""
         
     if data.split("-", 1)[0] == "BATCH":
-        sts = await message.reply("<b>ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...</b>")
+        ts = await message.reply("<b>ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...</b>")
         file_id = data.split("-", 1)[1]
         msgs = BATCH_FILES.get(file_id)
         if not msgs:
