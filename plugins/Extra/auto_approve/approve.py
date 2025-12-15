@@ -68,7 +68,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 ],[
                     InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
                 ],[
-                    InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
                 ],[
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ]]
@@ -78,7 +78,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 ],[
                     InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
                 ],[
-                    InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
                 ],[
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ]]
