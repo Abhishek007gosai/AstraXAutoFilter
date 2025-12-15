@@ -1807,7 +1807,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
-                InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
             ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
@@ -1817,7 +1817,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
             ],[
-                InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
+                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK), InlineKeyboardButton('ᴏɴɢᴏɪɴɢ', url='https://t.me/KafkaX_Bot?start=LTEwMDIxOTA2MTY5ODA=')
             ],[
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
@@ -3255,6 +3255,7 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
 
 
 
