@@ -70,8 +70,6 @@ async def auto_approve(client, message: ChatJoinRequest):
                 ],[
                     InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')
-                ],[
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ]]
             else:
@@ -81,8 +79,6 @@ async def auto_approve(client, message: ChatJoinRequest):
                     InlineKeyboardButton('ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs', callback_data='help')
                 ],[
                     InlineKeyboardButton('ᴀɴɪᴍᴇ ɴᴇᴡs', url=CHNL_LNK), InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ', url=GRP_LNK)
-                ],[
-                    InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ', url='https://t.me/GintokiXRobot?start=BQADAQADMA8AAtR58UUG3BBcwQK9PRYE')
                 ],[
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ]]
