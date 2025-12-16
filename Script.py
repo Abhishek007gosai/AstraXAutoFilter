@@ -237,6 +237,8 @@ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ @EternalsHelplineBot</b>"""
 
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
+    » <a href=https://t.me/KafkaX_Bot?start=req_LTEwMDE0NTczMTMwMjg>ᴇᴛᴇʀɴᴀʟs</a>
+
 <b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
@@ -743,6 +745,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
