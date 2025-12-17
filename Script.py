@@ -199,6 +199,8 @@ Nᴀᴍᴇ - {}"""
 ꜰᴏʀᴍᴀᴛ : Overflow / S1 E01 Overflow / S1E01 Overflow / E01 Overflow
 
 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</blockquote>\n<blockquote>ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃</blockquote>
+
+<blockquote>ɪғ ʏᴏᴜ ᴀʀᴇ ʜᴀᴠɪɴɢ ᴘʀᴏʙʟᴇᴍs ᴡʜɪʟᴇ sᴇᴀʀᴄʜɪɴɢ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴋᴀɪᴢᴜᴋɪ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.</blockquote>
 sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ @EternalsHelplineBot</b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
@@ -744,6 +746,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
