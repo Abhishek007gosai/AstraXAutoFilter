@@ -26,7 +26,7 @@ async def auto_approve(client, message: ChatJoinRequest):
         chat = message.chat 
         user = message.from_user  
         await client.approve_chat_join_request(chat_id=chat.id, user_id=user.id)
-        text = f"<b>ʜᴇʟʟᴏ {message.from_user.mention} 👋,\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {message.chat.title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - [<a href=https://t.me/KafkaX_Bot?start=req_LTEwMDIyMTc3NDQ5MDk>ɪɴᴅᴇx ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>]</b>"
+        text = f"<b>ʜᴇʟʟᴏ {message.from_user.mention} 👋,\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {message.chat.title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - [<a href=https://t.me/KafkaX_Bot?start=LTEwMDIyMTc3NDQ5MDk=>ɪɴᴅᴇx ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>]</b>"
         await client.send_message(chat_id=user.id, text=text)
          
     if REQUEST_TO_JOIN_MODE == False:
