@@ -21,9 +21,9 @@ PICS = (environ.get('PICS', 'https://files.catbox.moe/qi9n51.jpg')).split()
 
 
 # Admins & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8667251104').split()] # For Multiple Id Use One Space Between Each.
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '8667251104').split()]  # For Multiple Id Use One Space Between Each.
-AUTH_USERS = (auth_users + ADMINS) if auth_users else [8226767954]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8876236699').split()] # For Multiple Id Use One Space Between Each.
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '8876236699').split()]  # For Multiple Id Use One Space Between Each.
+AUTH_USERS = (auth_users + ADMINS) if auth_users else [8876236699]
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003746574484'))
@@ -127,7 +127,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '64d631b036df
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com/')
-SHORTLINK_API = environ.get('SHORTLINK_API', '64d631b036df348caab852591a09288cbf5b6809')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+wekKcN1tjbAxY2U1') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
