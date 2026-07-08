@@ -21,9 +21,9 @@ PICS = (environ.get('PICS', 'https://files.catbox.moe/qi9n51.jpg')).split()
 
 
 # Admins & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8876236699').split()] # For Multiple Id Use One Space Between Each.
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '8876236699').split()]  # For Multiple Id Use One Space Between Each.
-AUTH_USERS = (auth_users + ADMINS) if auth_users else [8876236699]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8771195193').split()] # For Multiple Id Use One Space Between Each.
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '8771195193').split()]  # For Multiple Id Use One Space Between Each.
+AUTH_USERS = (auth_users + ADMINS) if auth_users else [8771195193]
 
 # This Channel Is For When User Start Your Bot Then Bot Send That User Name And Id In This Log Channel, Same For Group Also.
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003842841233'))
