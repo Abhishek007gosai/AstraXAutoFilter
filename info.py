@@ -11,8 +11,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'AstraXRobot')
-API_ID = int(environ.get('API_ID', '29245477'))
-API_HASH = environ.get('API_HASH', '0abc83883262245c90ca337b7a0375c4')
+API_ID = int(environ.get('API_ID', ''))
+API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
